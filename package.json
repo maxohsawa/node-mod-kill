@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "CLI that assists in removing all node modules",
   "main": "bin/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,8 @@
   },
   "keywords": [],
   "author": "Max Ohsawa",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.1.5"
+  }
 }
