@@ -1,12 +1,15 @@
 {
-  "name": "mod-kill",
+  "name": "node-mod-kill",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "CLI that assists in removing all node modules",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "nmkill": "./bin/index.js"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "max ohsawa",
+  "license": "MIT"
 }
