@@ -1,7 +1,7 @@
 {
   "name": "node-mod-kill",
   "version": "1.0.0",
-  "description": "CLI that assists in removing all node modules",
+  "description": "CLI tool that assists in removing all node modules",
   "main": "bin/index.js",
   "type": "module",
   "scripts": {

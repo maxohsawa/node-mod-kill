@@ -72,7 +72,7 @@ inquirer
             }
 
             console.log(`Deleted ${splitLines.length - 1} node_modules`);
-            console.log(`>_ ${totalSize} MB to freed`);
+            console.log(`>_ ${totalSize} MB freed`);
         });
         });
       
