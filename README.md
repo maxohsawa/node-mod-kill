@@ -1,6 +1,7 @@
 # node-mod-kill
 
 ## installation
+`npm install`
 `npm install -g .`
 
 ## usage
